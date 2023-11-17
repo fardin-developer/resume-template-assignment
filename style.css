@@ -1,0 +1,182 @@
+/* 
+@media print {
+    @page {
+      size: A4;
+      margin: 0;
+    }
+  
+    body {
+      margin: 0;
+    }
+  } */
+    div {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 210mm;
+        /* standard width of A4 paper in millimeters */
+        height: 297mm;
+        /* standard height of A4 paper in millimeters */
+        aspect-ratio: 1 / 1.414;
+        /* aspect ratio of A4 paper */
+        margin: auto;
+    }
+
+    h2 {
+        margin: 0px;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    .main {
+        width: 210mm;
+        /* standard width of A4 paper in millimeters */
+        height: 297mm;
+        /* standard height of A4 paper in millimeters */
+        aspect-ratio: 1 / 1.414;
+        /* aspect ratio of A4 paper */
+        display: flex;
+        justify-content: flex-end;
+        border: 1px solid black;
+        font-size: 14px;
+        margin-top: 10px;
+
+    }
+
+
+    .left {
+        width: 30%;
+        background-color: rgb(104, 104, 107);
+        margin: 20px 0 20px 20px;
+        height: 97%;
+        color: white;
+
+    }
+
+    .profile {
+        width: 100%;
+        height: 25%;
+        background-color: #3484e7;
+    }
+
+    .img {
+        width: 100%;
+        text-align: center;
+
+
+    }
+
+    .img img {
+        width: 80px;
+        height: 86px;
+        border-radius: 70%;
+        margin-top: 15px;
+
+
+
+    }
+
+    .content {
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .logoSection {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .logoSection a {
+        color: white;
+
+        text-decoration: none;
+    }
+
+    .logo {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    .logo img {
+        margin-right: 5px;
+    }
+
+    .cdetails {
+        margin-left: 25%;
+        margin-top: 25px;
+        text-align: justify;
+    }
+
+    .skills {
+        width: 80%;
+        /* background-color: blue; */
+        margin: auto;
+    }
+
+    .skill {
+        width: 90%;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+
+    .skill h3 {
+        margin: 5px;
+    }
+
+    .skillbar {
+        height: 2px;
+        width: 80%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .skill-level {
+        height: 2px;
+        background-color: aqua;
+        width: 0;
+    }
+
+    .percent1 {
+        width: 80%;
+    }
+
+    .percent2 {
+        width: 60%;
+    }
+
+    .percent3 {
+        width: 80%;
+
+    }
+
+    .percent4 {
+        width: 70%;
+
+    }
+
+    .certificateName {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        font-size: larger;
+    }
+
+    .right {
+        width: 70%;
+        background-color: rgb(255, 255, 255);
+        margin: 10px 10px 10px 10px;
+    }
+
+    .rightContent {
+        width: 95%;
+        margin: auto;
+        /* background-color: bisque; */
+    }
+
+    .arrow img {
+        width: 10px;
+    }
